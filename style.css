@@ -1,0 +1,113 @@
+body{
+    background-image: url(images/bg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+header{
+    background-color: #666666;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+}
+nav a{
+    color: #eeeeee;
+    padding: 10px 30px 0px 200px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul{
+    text-decoration: none;
+}
+nav li{
+    display: inline-flex;
+}
+.logo_area{
+    margin-top: 50px;
+}
+.logo_pic{
+    margin-top: 45px;
+}
+.logo{
+    display: inline-block;
+}
+.logo_text{
+    color: rgb(250, 75, 6);
+    margin-top: 20px;
+    float: right;
+    font-family:url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+    font-size: 80px;
+}
+div.sec_part{
+    text-align: center;
+    color: #f07a04;
+    font-size: 20px;
+    font-style: oblique;
+}
+.courses{
+    width: 20%;
+    height: 600px;
+    margin: 50px;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    border-style: solid;
+    border-color: grey;
+}
+.more a{
+    text-decoration: none;
+    color: violet;
+    float: right;
+}
+h1{
+    color: hotpink;
+}
+.bottom{
+    width: 40%;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+.bottom_top{
+    float: right;
+}
+input{
+    display: block;
+    background-color: #f2f2f2;
+    width: 40%;
+    margin: 10px;
+    padding: 5px 5px 5px 30px; 
+}
+input:focus {
+    background-color: #ffffff; 
+    border: 1px solid #b1e1e4;
+} 
+textarea{
+    background-color: #f2f2f2;
+    color: grey;
+}
+.contact{
+    font-style: italic;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+fieldset {
+    width: 500px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+}  
+legend{
+   text-align: right;
+   font-family: cursive;
+   font-style: oblique;
+   font-weight: lighter;
+   font-size: 24px;
+   color: violet;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
